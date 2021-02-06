@@ -1,0 +1,16 @@
+.project_img {
+  width: 95%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.project-container {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 5rem;
+}
+
+.project-text {
+  margin: 0 5rem 0;
+}

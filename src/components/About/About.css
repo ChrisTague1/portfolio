@@ -1,0 +1,35 @@
+#about {
+  border: 1px solid black;
+  height: 100vh;
+  background-image: linear-gradient(red, #f06d06);
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+}
+
+#about-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 5%;
+}
+
+.box {
+  border: 2px solid red;
+}
+
+.profile {
+  float: left;
+  margin-left: 3rem;
+}
+
+.text {
+  float: right;
+  width: 60%;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  height: 100%;
+  font-size: 1.5rem;
+}
+

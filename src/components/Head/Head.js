@@ -3,14 +3,18 @@ import './Head.css';
 
 const Head = () => {
   return (
-    <>
-      <h1>
-        Hi, my name is Chris Tague<br />
-        I'm the developer you need.
-      </h1>
-      <button>More about me</button><br />
-      <button>Jump to projects</button><br />
-    </>
+    <header id="head">
+      <div className="content">
+        <h1 className="introduction">
+          Hi, my name is <strong>Chris Tague</strong><br />
+          I'm the developer you need.
+        </h1>
+        <p>
+          <a href="#about">More about me</a><br/>
+          <a href="#projects" >Jump to Projects</a>
+        </p>
+      </div>
+    </header>
   );
 }
 
