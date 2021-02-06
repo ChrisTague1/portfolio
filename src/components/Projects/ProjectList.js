@@ -1,5 +1,6 @@
 import typingImg from '../../assets/typing-speed-app.png';
 import sudokuImg from '../../assets/sudoku-web-app.png';
+import faceImg from '../../assets/face-detector.png';
 
 class Project {
   constructor(name, blurb, image, source, live = 0) {
@@ -30,5 +31,14 @@ const sudoku = new Project(
   "https://christague1.github.io/sudoku-web-app/"
 )
 ProjectList.push(sudoku);
+
+const face = new Project(
+  "Face Detector App",
+  "I made this web app as part of a Udemy course I took. It uses a face detection API to scan an image for a face, and uses CSS to put a box around the face. It also has a sign in and register page, which allows it to track the users data and store it in a database. All passwords are encriptend using bcrypt. This app consists of a frontend, backend, and SQL database. It is hosted for free through Heroku.",
+  faceImg,
+  "https://github.com/ChrisTague1/face-detection-app",
+  "http://smart-brain23.herokuapp.com/"
+)
+ProjectList.push(face);
 
 export default ProjectList;
