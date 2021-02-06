@@ -17,7 +17,7 @@ const Projects = ({ projectList }) => {
 
   return (
     <section id="projects" >
-      <h1>Projects</h1>
+      <h2 className="title" >Projects</h2>
       {proj}
     </section>
   );

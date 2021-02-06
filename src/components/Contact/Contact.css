@@ -1,8 +1,12 @@
 #contact {
-  height: 50vh;
+  height: 30vh;
   text-align: center;
+  background-color: #182A5E;
+  margin-top: 2rem;
 }
 
-#final {
-  
+.contact-text {
+  padding-top: 3rem;
+  color: #78B494;
+  font-size: 1.7rem;
 }

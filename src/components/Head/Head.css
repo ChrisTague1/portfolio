@@ -1,6 +1,7 @@
 #head {
   border: 1px solid black;
   height: 100vh;
+  background-image: linear-gradient(#fafafa, #78B494)
 }
 
 .content {
@@ -10,9 +11,10 @@
 
 .introduction {
   font-size: 4em;
+  color: #303030;
 }
 
-strong {
-  color: blue;
+#head-name {
+  color: #417386;
   font-weight: 700;
 }
