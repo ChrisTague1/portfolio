@@ -15,9 +15,10 @@ const About = ({ profile }) => {
               in for the jazz band, and a member of the theater program.
             </p>
             <p>
-              In senior year of high school I took my first programming class and fell in love. I started learning more on my own, 
-              and decided I wanted to major in software engineering. In addition to university courses, I have take online courses over topics 
-              like full stack development, React JS, SQL, docker, and Jenkins. Going forward, I wish to keep learning everything I can about 
+              A week before my senior year of high school began, I made a life changing decision: I removed Spanish 4 from my schedule, and added Computer Sciense. 
+              I completed the high school course, began learning more on my own, and decided to major in Software Engineering at Iowa State University (Go Cyclones!). 
+              In addition to my university courses, I have take online courses over topics like full stack development, 
+              React JS, SQL, docker, and Jenkins. Going forward, I wish to keep learning everything I can about 
               software developemnt, and grow both as a person and engineer along the way.
             </p>
           </div>

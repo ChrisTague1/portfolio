@@ -2,6 +2,7 @@ import typingImg from '../../assets/typing-speed-app.png';
 import sudokuImg from '../../assets/sudoku-web-app.png';
 import faceImg from '../../assets/face-detector.png';
 import portfolioImg from '../../assets/portfolio.png';
+import mazeImg from '../../assets/maze-generator.png';
 
 class Project {
   constructor(name, blurb, image, source, live = 0) {
@@ -50,5 +51,13 @@ const portfolio = new Project(
   "https://christague1.github.io/portfolio/"
 )
 ProjectList.push(portfolio);
+
+const maze = new Project(
+  "Maze Generator",
+  "This maze generator was made using python. It uses a depth search algorithm to generate the maze. The user can select the starting cell (defaults to (0, 0)), and the algorithm will create the maze. The mazes can get very large, but will eventually hit pythons recursion limit.",
+  mazeImg,
+  "https://github.com/ChrisTague1/maze-generator"
+)
+ProjectList.push(maze);
 
 export default ProjectList;
