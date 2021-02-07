@@ -5,7 +5,6 @@
 }
 
 .project-container {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 5rem;
@@ -13,4 +12,13 @@
 
 .project-text {
   margin: 0 5rem 0;
+}
+
+#projects {
+  background-image: linear-gradient(#fafafa, #78B494);
+  border-top: #fafafa;
+}
+
+.breaker {
+  height: 2rem;
 }

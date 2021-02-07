@@ -1,5 +1,6 @@
 #head {
-  border: 1px solid black;
+  border-top: 1px solid #fafafa;
+  margin-top: 0;
   height: 100vh;
   background-image: linear-gradient(#fafafa, #78B494)
 }

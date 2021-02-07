@@ -19,6 +19,7 @@ const Projects = ({ projectList }) => {
     <section id="projects" >
       <h2 className="title" >Projects</h2>
       {proj}
+      <div className="breaker"/>
     </section>
   );
 }
