@@ -1,13 +1,9 @@
 #head {
-  border-top: 1px solid #fafafa;
-  margin-top: 0;
-  height: 100vh;
   background-image: linear-gradient(#fafafa, #78B494)
 }
 
 .content {
-  margin-top: 20%;
-  margin-left: 10%;
+  padding: 20% 10% 29%;
 }
 
 .introduction {
@@ -18,4 +14,16 @@
 #head-name {
   color: #417386;
   font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+  color: #104052;
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  font-size: 1.75em;
+  text-shadow: 1px 1px #022837;
 }

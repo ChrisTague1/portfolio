@@ -1,6 +1,7 @@
 import typingImg from '../../assets/typing-speed-app.png';
 import sudokuImg from '../../assets/sudoku-web-app.png';
 import faceImg from '../../assets/face-detector.png';
+import portfolioImg from '../../assets/portfolio.png';
 
 class Project {
   constructor(name, blurb, image, source, live = 0) {
@@ -40,5 +41,14 @@ const face = new Project(
   "http://smart-brain23.herokuapp.com/"
 )
 ProjectList.push(face);
+
+const portfolio = new Project(
+  "Portfolio",
+  "If you have not seen this project yet, you should really check it out! This is a portfolio made to collect my finished projects. It is continually getting updated, and will continue to grow!",
+  portfolioImg, 
+  "https://github.com/ChrisTague1/portfolio",
+  "https://christague1.github.io/portfolio/"
+)
+ProjectList.push(portfolio);
 
 export default ProjectList;

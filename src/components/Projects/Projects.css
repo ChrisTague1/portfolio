@@ -22,3 +22,10 @@
 .breaker {
   height: 2rem;
 }
+
+.projects_title {
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+}

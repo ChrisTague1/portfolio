@@ -10,8 +10,8 @@ const Head = () => {
           I'm the developer you need.
         </h1>
         <p>
-          <a href="#about">More about me</a><br/>
-          <a href="#projects" >Jump to Projects</a>
+          <a className="link" href="#about">More about me</a><br/>
+          <a className="link" href="#projects" >Jump to Projects</a>
         </p>
       </div>
     </header>
