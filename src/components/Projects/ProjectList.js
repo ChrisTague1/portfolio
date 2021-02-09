@@ -1,4 +1,4 @@
-import typingImg from '../../assets/typing-speed-app.png';
+import typingImg from '../../assets/typing.png';
 import sudokuImg from '../../assets/sudoku-web-app.png';
 import faceImg from '../../assets/face-detector.png';
 import portfolioImg from '../../assets/portfolio.png';

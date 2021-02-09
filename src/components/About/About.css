@@ -4,9 +4,9 @@
 }
 
 .about_container {
-  display: grid;
-  grid-template-columns: auto 40rem;
-  grid-gap: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .title {
@@ -17,15 +17,13 @@
 }
 
 .profile {
-  margin-left: 2rem;
+  width: 40%;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .text {
   font-size: 1.5em;
-  margin-right: 2em;
-}
-
-#about_package {
-  width: 75%;
-  justify-self: center;
+  margin: 0 2em;
+  width: 50%;
 }

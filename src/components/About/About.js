@@ -7,8 +7,10 @@ const About = ({ profile }) => {
       <div id="about_package">
         <h2 className="title">About me</h2>
         <div className="about_container">
-          <img className="box profile" src={profile} />
-          <div className="box text">
+          <div className="profile">
+            <img src={profile} />
+          </div>
+          <div className="text">
             <p>
               I grew up in McCausland, a small town in rural Iowa, and went to North Scott High School in Eldridge.
               While in high school, I was a varsity track and cross country runner, head of the drumline, lead drummer

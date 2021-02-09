@@ -11,7 +11,9 @@ const Projects = ({ projectList }) => {
         {(project.live) ? <><a className="link" href={project.live} >View Live</a><br /></> : ""}
         <a className="link" href={project.source} >Source Code</a>
       </div>
-      <img className="project_img" src={project.image} /><br />
+      {/* <div className="project_img"> */}
+        <img className="project_img" src={project.image} /><br />
+      {/* </div> */}
     </div>
   );
 
