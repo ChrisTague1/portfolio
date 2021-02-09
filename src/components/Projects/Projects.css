@@ -11,9 +11,16 @@
   margin-top: 5rem;
 }
 
+.project-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
 .project-text {
   width: 30rem;
-  padding-right: 5rem;
+  padding: 0 3rem;
 }
 
 #projects {

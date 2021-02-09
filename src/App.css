@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+img {
+  transition: all 0.4s;
+  border: 2px solid #132047;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
